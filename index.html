@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Economic Simulation</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/lodash/dist/lodash.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <h1>Counterintuitive problem: Everyone in a room keeps giving dollars to random others.</h1>
+    <h2>Imagine a room full of 100 people with 100 dollars each. With every tick of the clock, every person with money gives a dollar to one randomly chosen other person. After some time progresses, how will the money be distributed?</h2>
+
+    <div id="content">
+        <div>This is run <span id="run">0</span>.</div>
+        <svg id="svg1" width="960" height="500"></svg>
+        <svg id="svg2" width="960" height="500"></svg>
+    </div>
+</body>
+</html>
