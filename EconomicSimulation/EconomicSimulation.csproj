@@ -58,6 +58,10 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app.css" />
+    <Content Include="app.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="bower_components\d3\d3.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -302,7 +306,9 @@
     <Content Include="bower_components\lodash\vendor\underscore\test\utility.js" />
     <Content Include="bower_components\lodash\vendor\underscore\underscore-min.js" />
     <Content Include="bower_components\lodash\vendor\underscore\underscore.js" />
-    <Content Include="index.html" />
+    <Content Include="index.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
