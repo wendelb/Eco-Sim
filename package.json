@@ -6,6 +6,9 @@
   "repository": "git@github.com:wendelb/Eco-Sim.git",
   "author": "Bernhard Wendel <bwendel@gmx.de>",
   "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js --progress"
+  },
   "dependencies": {
     "d3": "^4.9.1",
     "jquery": "^3.2.1"
