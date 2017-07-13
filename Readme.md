@@ -13,10 +13,11 @@ After running the experiment multiple times, it verifies the results in the arti
 
 ## TODO List
 
-* [ ] Remove all VS stuff
-* [ ] Remove Bower and add yarn
-* [ ] Add Webpack
-
+* [x] Remove all VS stuff
+* [x] Remove Bower and add yarn
+* [x] Add Webpack
+* [ ] Add CSS to Webpack
+* [ ] Minify HTML
 
 ## License
 
