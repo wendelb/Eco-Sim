@@ -1,0 +1,19 @@
+{
+  "name": "Eco-Sim",
+  "version": "1.0.0",
+  "description": "An Economic Simulation",
+  "main": "index.html",
+  "repository": "git@github.com:wendelb/Eco-Sim.git",
+  "author": "Bernhard Wendel <bwendel@gmx.de>",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^4.9.1",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.2.0"
+  }
+}
